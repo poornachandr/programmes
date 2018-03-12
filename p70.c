@@ -8,12 +8,12 @@ int main()
  {
   n=n/2;
   count++;
- for(i=0;i<count+1;i++)
+ }
+ for(i=1;i<=count+1;i++)
  {
   result=result*2;
   }
-  }
+
   printf("%d",result);
  return 0;
 }
-  
