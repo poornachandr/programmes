@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
- int count=0,ch=0,i;
+ int count=0,c=0,i;
  char a[30]="love to code .123.";
  for(i=0;a[i]!='\0';i++)
  {
@@ -11,10 +11,10 @@ void main()
  }
  if(((a[i]>='a')||(a[i]<='z'))&&((a[i]>='A')||(a[i]<='Z')))
  {
-  ch++;
+  c++;
  }
  }
- if((count>0)&&(ch>1))
+ if((count>0)&&(c>0))
  {
   printf("\n contains both alpha and numeric characters);
   }
