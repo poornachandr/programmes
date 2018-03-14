@@ -14,6 +14,6 @@ int main()
  {
   printf("\n Not a perfect square");
  }
- retturn 0;
+ return 0;
 }
  
